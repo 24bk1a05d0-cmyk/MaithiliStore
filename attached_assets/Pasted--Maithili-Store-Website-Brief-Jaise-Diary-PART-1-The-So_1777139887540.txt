@@ -1,0 +1,467 @@
+## *"Maithili Store" — Website Brief*
+### *~ Jaise Diary 
+## 📓 PART 1 — The Soul Brief
+*(Designer ke liye — feel samajhne ke liye)*
+
+---
+
+> *Ek aisi jagah banao —*
+> *Jahan ek 16 saal ka ladka jo pehli baar*
+> *thumbnail banana seekh raha hai —*
+> *Aur ek 32 saal ki working professional*
+> *jo invoice generator dhundh rahi hai —*
+> *Dono ek hi darwaze se andar aayen.*
+> *Dono ko lage — yeh jagah meri hai.*
+
+---
+
+> *Website ka naam hai — **Maithili Store.***
+> *Maithili — woh bhasha jo*
+> *seedhi dil se baat karti hai.*
+> *Toh website bhi seedhi baat kare.*
+> *Koi drama nahi.*
+> *Koi overwhelm nahi.*
+> *Bas — aa, dekh, kaam kar, ja.*
+
+---
+
+> *Yeh ek **store** hai —*
+> *Toh har cheez shelf pe saaf dikhni chahiye.*
+> *Koi cheez chhupni nahi chahiye.*
+> *Koi cheez push nahi honi chahiye.*
+> *User khud dhundhe — aur mile.*
+
+---
+
+## 🎨 PART 2 — Visual Direction
+*(Designer ke liye — exact feel)*
+
+---
+
+**Mood Board — 3 Alfaazon Mein:**
+> ***Clean. Warm. Confident.***
+
+---
+
+**Color Philosophy:**
+
+> *"Ek Maithili dupatta dekha hai kabhi?*
+> *Uski colors — bold hoti hain, par shor nahi karti.*
+> *Wahi chahiye."*
+
+| Element | Color Direction |
+|---|---|
+| **Primary** | Deep Maithili Red `#C0392B` — identity, strength |
+| **Secondary** | Warm Ivory `#FAF3E0` — paper, diary, warmth |
+| **Accent** | Turmeric Gold `#F39C12` — energy, youth |
+| **Neutral** | Charcoal `#2C3E50` — text, grounding |
+| **Background** | Off-white `#FDFCFB` — never pure white |
+
+---
+
+**Typography:**
+
+> *"Jo padha jaaye — wo likhna. Jo dikhaya jaaye — woh dikhana."*
+
+| Use | Font Direction |
+|---|---|
+| **Headlines** | Bold Serif — presence chahiye |
+| **Body** | Clean Sans-serif — readability first |
+| **Taglines** | Italic — thoda personal feel |
+| **Tool Names** | Monospace — technical credibility |
+
+---
+
+**Layout Philosophy:**
+
+> *"Bazaar mein jaate ho toh kya hota hai?*
+> *Pehle overview dikhta hai — kya kya hai.*
+> *Phir section mein jaate ho.*
+> *Phir ek cheez uthate ho.*
+> *Yahi flow chahiye."*
+
+- **No carousels** — sab kuch ek hi baar dikhao
+- **Grid-based** — categories clearly separated
+- **Breathing space** — har element ke beech gap do
+- **Mobile-first** — 70% users phone pe aayenge
+
+---
+
+## 💻 PART 3 — Exact Website Structure
+*(Developer ke liye — pixel perfect)*
+
+---
+
+### 🏠 **Homepage — "Pehla Impression"**
+
+```
+HEADER
+├── Logo (left) — "Maithili Store" 
+│   Tagline: "Har kaam ka ek tool"
+├── Navigation (center)
+│   ├── Tools
+│   ├── Categories  
+│   ├── New Arrivals
+│   └── About
+└── Search Bar (right) — PROMINENT
+    Placeholder: "Kya dhundh rahe ho?"
+
+HERO SECTION
+├── Headline: "Ek jagah. Sab kuch."
+├── Sub: "Teenagers se professionals tak —
+│        har kaam ka tool yahan hai."
+├── CTA Button: "Tools Dekho →"
+└── Subtle animation — tools floating
+
+QUICK ACCESS BAR (below hero)
+├── 👦 Teenagers
+├── 🎨 Designers  
+├── 💻 Developers
+├── 📱 Content Creators
+├── 📚 Students
+└── 💼 Working Professionals
+(Ek click — seedha unke tools pe)
+
+FEATURED TOOLS SECTION
+"Aaj ke Popular Tools"
+├── Grid — 6 tools
+├── Each card:
+│   ├── Tool Icon
+│   ├── Tool Name
+│   ├── One-line description
+│   ├── User tag (who uses it)
+│   └── "Use Karo →" button
+
+CATEGORY SHOWCASE
+"Apna section dhundho"
+├── 6 category cards
+├── Each card:
+│   ├── Illustration (not stock photo)
+│   ├── Category name
+│   ├── Tool count "23 tools"
+│   └── Hover effect — tools preview
+
+NEW ARRIVALS STRIP
+"Naye aaye hain —"
+Horizontal scroll — latest tools
+
+TESTIMONIAL SECTION
+"Inhe kaam aaya"
+├── Real user quotes (short)
+├── Their role — "Designer, Mumbai"
+└── No fake stars — bas quote
+
+FOOTER
+├── Quick links by category
+├── Social links
+├── "Made with ♥️ in Maithili spirit"
+└── Simple — no clutter
+```
+
+---
+
+### 🗂️ **Category Page — "Apna Section"**
+
+```
+CATEGORY HEADER
+├── Category name — BIG
+├── Description — 2 lines max
+├── Tool count
+└── Illustration — related to category
+
+FILTER BAR (sticky)
+├── Sort by: Popular / New / A-Z
+├── Filter by: Free / Paid / Both
+└── Search within category
+
+TOOLS GRID
+├── Card design:
+│   ├── Tool icon/screenshot
+│   ├── Name
+│   ├── Short description (max 15 words)
+│   ├── Tags: [Free] [Online] [Download]
+│   └── Quick action button
+└── Infinite scroll OR pagination
+    (A/B test karo)
+
+SIDEBAR (desktop only)
+├── Related categories
+├── Most used this week
+└── User favorites
+```
+
+---
+
+### 🔧 **Individual Tool Page — "Kaam Karo"**
+
+```
+TOOL HEADER
+├── Tool name + icon
+├── Category breadcrumb
+├── Rating (if applicable)
+└── Share button
+
+TOOL INTERFACE
+├── The actual tool — FULL WIDTH
+├── Instructions — collapsible
+└── Keyboard shortcuts (if any)
+
+TOOL INFO SECTION (below tool)
+├── What it does — simple language
+├── Who should use it
+├── How to use — 3 steps max
+└── Tips & tricks
+
+RELATED TOOLS
+"Yeh bhi kaam aayega"
+└── 4-6 related tools grid
+```
+
+---
+
+### 👤 **User Categories — Dedicated Landing Pages**
+
+*Abir ka insight:*
+> *"Ek designer aur ek developer —*
+> *dono alag bhasha bolte hain.*
+> *Unhe alag bhasha mein bulao."*
+
+**Teenager Page:**
+```
+Headline: "School se college tak — 
+           sab kuch yahan hai"
+Tools: Resume maker, Study planner,
+       Presentation templates,
+       Instagram post maker,
+       Assignment formatter
+Tone: Casual, energetic, emoji allowed
+```
+
+**Designer Page:**
+```
+Headline: "Design karo — bina ruke"
+Tools: Color palette generator,
+       Font pairer, Icon finder,
+       Mockup creator, Image compressor
+Tone: Professional, visual-heavy
+```
+
+**Developer Page:**
+```
+Headline: "Code. Debug. Ship."
+Tools: JSON formatter, Regex tester,
+       CSS generator, API tester,
+       README maker, Code converter
+Tone: Minimal, dark mode option
+```
+
+**Content Creator Page:**
+```
+Headline: "Content banao — 
+           har platform ke liye"
+Tools: Thumbnail maker, Caption generator,
+       Hashtag finder, Video compressor,
+       Script template
+Tone: Trendy, platform-aware
+```
+
+**Student Page:**
+```
+Headline: "Padhai easy karo — 
+           seriously"
+Tools: Citation generator, Note organizer,
+       Mind map maker, Flashcard creator,
+       Timer (Pomodoro)
+Tone: Friendly, non-intimidating
+```
+
+**Working Professional Page:**
+```
+Headline: "Office ka kaam — 
+           jaldi khatam karo"
+Tools: Invoice generator, Meeting notes,
+       Email templates, Calendar planner,
+       PDF tools
+Tone: Clean, efficient, time-aware
+```
+
+---
+
+## ⚙️ PART 4 — Technical Specifications
+*(Developer ke liye — exact)*
+
+---
+
+**Performance Requirements:**
+
+> *"Jo jaldi khule — woh zyaada use hota hai.*
+> *Simple physics."*
+
+```
+Page Load: < 2 seconds
+Mobile Score: 90+ (Lighthouse)
+Offline: Core tools work without internet
+Images: WebP format, lazy loading
+Fonts: Self-hosted (no Google Fonts dependency)
+```
+
+**Must-Have Features:**
+
+```
+✅ Search — instant, fuzzy search
+✅ Dark Mode — developer log maangenge
+✅ Keyboard Navigation — accessibility
+✅ Bookmark tools — user account free
+✅ Recently Used — local storage
+✅ Share tool — direct link
+✅ Copy output — one click
+✅ Download output — where applicable
+✅ Mobile responsive — every single tool
+```
+
+**Tool Organization System:**
+
+```
+Each tool has:
+├── Unique slug (URL)
+├── Category (primary)
+├── Tags (multiple)
+├── User type (who uses it)
+├── Complexity level (beginner/advanced)
+├── Free/paid flag
+└── Last updated date
+```
+
+**Search Intelligence:**
+
+> *"Search mein 'color' likho —*
+> *Color picker, Color palette generator,*
+> *Color contrast checker —*
+> *Teeno dikhne chahiye.*
+> *User ko nahi pata exact naam."*
+
+```
+Search should match:
+├── Tool name
+├── Tool description  
+├── Tags
+├── Category
+└── Common synonyms
+    (e.g., "resume" = "CV" = "biodata")
+```
+
+---
+
+## 🎯 PART 5 — UX Rules
+*(Jo Abir ne khud observe kiya)*
+
+---
+
+> *"Maine notice kiya hai —*
+> *Log 3 cheezon se bhaagte hain website pe:*
+> *Popup, registration, aur confusion.*
+> *Teeno remove karo."*
+
+**Abir's 7 UX Laws for Maithili Store:**
+
+**Law 1:** *"Pehle tool, phir account"*
+No forced login. Tool use karo — tab bolo account banao.
+
+**Law 2:** *"Ek kaam, ek page"*
+Tool page pe sirf tool. No ads between tool and user.
+
+**Law 3:** *"Error — insaan ki bhasha mein"*
+"Something went wrong" nahi —
+"Yeh file too large hai. 5MB se kam karo."
+
+**Law 4:** *"Mobile mein bhi poora kaam ho"*
+Koi tool mobile mein half-broken nahi hoga.
+
+**Law 5:** *"Speed = Respect"*
+Agar tool 5 second se zyaada leta hai —
+Loading animation + reason batao.
+
+**Law 6:** *"Empty state — helpful ho"*
+Agar koi tool use nahi kiya —
+"Yahan se shuru karo →" suggestion do.
+
+**Law 7:** *"Feedback loop — close karo"*
+Har tool ke neeche —
+"Kaam aaya? 👍 Nahi aaya? 👎"
+One click. No form.
+
+---
+
+## 📱 PART 6 — Mobile-First Rules
+
+```
+Navigation: Bottom tab bar on mobile
+Search: Always accessible — sticky top
+Tool Interface: Full screen on mobile
+Output: Copy button — big, thumb-friendly
+Scroll: Vertical only — no horizontal hell
+Font size: Minimum 16px — no squinting
+Tap targets: Minimum 44x44px
+```
+
+---
+
+## 🌐 PART 7 — Language & Tone Guide
+
+> *"Maithili — seedhi baat karti hai.*
+> *Toh website bhi seedhi baat kare."*
+
+| Situation | Tone |
+|---|---|
+| Headlines | Bold, direct, Hindi-friendly |
+| Instructions | Simple, step by step |
+| Error messages | Helpful, not technical |
+| Empty states | Encouraging |
+| Success states | Celebratory but brief |
+| Loading states | Honest about time |
+
+**Copy Examples:**
+
+```
+❌ "An error occurred processing your request"
+✅ "Kuch gadbad hui. Ek baar phir try karo."
+
+❌ "Upload file to begin"  
+✅ "Apni file yahan daalo — ya drag karo"
+
+❌ "Premium feature"
+✅ "Yeh tool free hai ✓"
+
+❌ "Invalid input detected"
+✅ "Yeh format nahi chalega — 
+    JPG ya PNG use karo"
+```
+
+---
+
+## 🔱 PART 8 — Final Note to the Developer
+
+---
+
+> *"Yeh website ek store hai.*
+> *Par store se zyaada —*
+> *Yeh ek promise hai.*
+> *Kisi bhi teenager ko —*
+> *Jo pehli baar kuch banana chahta hai,*
+> *Yeh website uska pehla tool hogi.*
+> *Kisi bhi professional ko —*
+> *Jo thaka hua hai aur jaldi mein hai,*
+> *Yeh website uski help karegi.*
+
+> *Toh build karte waqt ek baar socho —*
+> *Kya woh 16 saal ka ladka*
+> *is button ko samjhega?*
+> *Kya woh thaki hui professional*
+> *yeh tool 30 second mein use kar legi?*
+
+> *Agar haan — sahi bana rahe ho.*
+> *Agar nahi — wapas jaao.*
+> *Simplify karo.*
+
+> *Technology tool hai.*
+> *Maithili Store — insaan ke liye hai."*
