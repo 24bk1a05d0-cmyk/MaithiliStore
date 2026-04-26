@@ -4,7 +4,10 @@ import { useLocalStorage } from "./useLocalStorage";
 const KEY = "maithili-store:bookmarks";
 
 export function useBookmarks() {
-  const [bookmarks, setBookmarks] = useLocalStorage<string[]>(KEY, []);
+  const [bookmarks, setBookmarks, clearBookmarks] = useLocalStorage<string[]>(
+    KEY,
+    [],
+  );
 
   const isBookmarked = useCallback(
     (slug: string) => bookmarks.includes(slug),
@@ -20,5 +23,5 @@ export function useBookmarks() {
     [setBookmarks],
   );
 
-  return { bookmarks, isBookmarked, toggle };
+  return { bookmarks, isBookmarked, toggle, clear: clearBookmarks };
 }
